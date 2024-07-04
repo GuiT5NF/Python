@@ -17,7 +17,7 @@ for linha in pagina_clientes.iter_rows(min_row=2):
     telefone = linha[1].value
     vencimento = linha[2].value
 
-    mensagem = f'Ola {nome}, seu boleto vence no dia {vencimento.strftime('%d/%m/%Y')}. Manda no pix do pai '
+    mensagem = f'Ola {nome}, seu boleto vence no dia {vencimento.strftime('%d/%m/%Y')}. Manda mande no seguinte pix:... '
 
     # criar links personalizados do whatsapp e enviar para cada cliente
     # https://web.whatsapp.com/send?phone={}&text={quote()}
