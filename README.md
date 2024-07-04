@@ -1,4 +1,4 @@
-# Exercicios Python
- Exercicios feitos na aula de python.
+# Python
+ Exercicios/projetos feitos em python.
 
- projeto para estudos.
+ Apenas para estudos.
